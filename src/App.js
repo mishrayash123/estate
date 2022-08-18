@@ -4,6 +4,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Axios from "axios";
 import Rent from "./components/Rent"
+import Footer from "./components/Footer";
+import Home from './components/Home';
 
 
 function App() {
@@ -54,7 +56,11 @@ const options = {
     <Route path="/rent" element={<div>
                 <Rent Sdata={Sdata} />
             </div>} />
+            <Route path="/" element={<div>
+                <Home />
+            </div>} />
             </Routes>
+            <Footer />
     </BrowserRouter>
   );
 }

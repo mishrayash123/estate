@@ -1,6 +1,6 @@
 import {Transition} from "@headlessui/react";
 import React, {useState, useRef} from "react";
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 
 
 
@@ -27,7 +27,7 @@ const Navbar =({setfav}) => {
             <div className="flex items-center">
               <div className="flex-shrink-0">
               </div>
-                <a className="text-purple-900 text-3xl italic text-2xl mb-2" href="/">Estate</a>
+                <a className="text-purple-900 text-3xl italic text-2xl mb-2" href="/">Rent a Property</a>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                 <Link to="/rent" className=" hover:bg-blue-900 text-base  text-red-900 hover:text-white  px-3 py-2 rounded-md text-sm font-medium">
